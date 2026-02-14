@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sudoku Gurus Support</title>
+    <style>
+      :root {
+        --bg: #f4efe3;
+        --card: #f9f4e8;
+        --text: #3f3228;
+        --muted: #6f5f51;
+        --border: #ccb79d;
+        --accent: #b88a4a;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        color: var(--text);
+        background: linear-gradient(180deg, #f7f2e7 0%, var(--bg) 100%);
+      }
+      .wrap {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 32px 16px 48px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 24px;
+        box-shadow: 0 6px 18px rgba(70, 49, 25, 0.08);
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: 2rem;
+      }
+      p { line-height: 1.55; margin: 10px 0; }
+      .muted { color: var(--muted); }
+      .grid {
+        display: grid;
+        gap: 12px;
+        margin-top: 20px;
+      }
+      .item {
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 14px;
+        background: #fffaf0;
+      }
+      a {
+        color: #6d4b1f;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      a:hover { text-decoration: underline; }
+      .pill {
+        display: inline-block;
+        background: #f0e2c8;
+        color: #5a4121;
+        border: 1px solid #d8bf97;
+        border-radius: 999px;
+        padding: 6px 10px;
+        font-size: 0.85rem;
+      }
+      footer {
+        margin-top: 18px;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="card">
+        <span class="pill">Sudoku Gurus</span>
+        <h1>Support</h1>
+        <p class="muted">
+          Need help with Sudoku Gurus? Contact us and we will get back to you as soon as possible.
+        </p>
+
+        <div class="grid">
+          <div class="item">
+            <strong>Email support</strong>
+            <p>
+              <a href="mailto:nancy8313@gmail.com">nancy8313@gmail.com</a>
+            </p>
+          </div>
+
+          <div class="item">
+            <strong>Common help topics</strong>
+            <p>Ads not loading, gameplay issues, hint rewards, and account or purchase questions.</p>
+          </div>
+
+          <div class="item">
+            <strong>Privacy policy</strong>
+            <p>
+              <a href="./privacy.html">View Privacy Policy</a>
+            </p>
+          </div>
+        </div>
+
+        <footer class="muted">© 2026 Sudoku Gurus</footer>
+      </section>
+    </main>
+  </body>
+</html>
